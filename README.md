@@ -20,7 +20,7 @@
 
 ## **Technologies Used**
 
-### ** AI Skills & Technologies**
+###  AI Skills & Technologies
 - **Large Language Models**: Implementation of GPT-based models for natural language generation
 - **Prompt Engineering**: Advanced techniques for optimal AI content generation
 - **Retrieval-Augmented Generation (RAG)**: Combining information retrieval with generative AI for factual accuracy
