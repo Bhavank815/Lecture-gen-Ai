@@ -1,49 +1,56 @@
-<br />
+# **Lecture Gen-AI: An Educational Content Generator**
 
-<p align="middle">
-    <img src="https://github.com/antz22/edulecture.ai/blob/main/imgs/hero.png" width="100%" style="margin:0; padding: 0">
-</p>
+## **Overview**
 
-<br />
+**Lecture Gen-AI** is an innovative educational technology platform that harnesses artificial intelligence to automate the creation of comprehensive lecture materials. Designed for educators, instructional designers, and educational institutions, this tool significantly reduces preparation time while maintaining high-quality educational content. By simply providing a topic and basic parameters, users can generate complete lecture packages including notes, slides, assessments, and interactive elements.
 
-<p align="middle">
-    EduLecture.ai is a groundbreaking voice-generative AI tool that uses machine learning to bridge the gaps in accessibility and quality of remote education.
-</p>
+---
 
-# Inspiration
-All students have been in a situation where they’re reviewing lecture slides and simply cannot follow along. Grasping lecture material, particularly for lessons loaded with abstract visual models, can be difficult without an auditory aid. That’s why EduLecture.ai is here to help. By increasing the accessibility of remote education, EduLecture.ai boosts student comprehension and engagement. Students remain more engaged when hearing a lecture in a familiar teacher’s voice, resulting in improved academic performance.
+## **Features**
 
-# What it does
-EduLecture.ai is a website that allows educators to seamlessly generate a video presentation of their lecture. Using AI and machine learning, EduLecture.ai accepts a short audio sample of the educator’s voice and their Google Slides lecture, accompanied by slide notes, to create a video lecture narrated in the educator’s unique voice. These videos are then uploaded and saved to the educator’s online profile, on which students can easily access their educator's content, whether it's for supplementary review material, makeup work, or much more.
+- **AI-Powered Content Generation**: Creates comprehensive lecture materials from simple topic prompts.
+- **Multi-Format Output**: Generates lecture notes, presentation slides, student handouts, and assessment materials simultaneously.
+- **Customizable Content Depth**: Adjusts the complexity and detail level based on educational needs (K-12, undergraduate, graduate).
+- **Subject-Specific Expertise**: Covers diverse academic disciplines with appropriate terminology and concepts.
+- **Educational Best Practices**: Incorporates proven pedagogical approaches in generated content.
+- **Export Flexibility**: Saves materials in multiple formats (PDF, PPTX, DOCX) for immediate use.
+- **Content Revision**: Allows for editing and refining AI-generated materials.
 
-# How we built it
-EduLecture.ai was built using a combination of React, Django, and Python. In order to build the frontend for EduLecture.ai, we used React.js to easily integrate interactions with the API. For the backend, we coded a server using Django Rest Framework for the API endpoints that the frontend called. On the backend, we used different Python libraries for the voice-generative AI tooling that lived in the Django server.
+---
 
-# Challenges we ran into
-Some of the major challenges we ran into included issues with authenticating the Google Cloud Platform Project, as well as creating an authentication system between Django and React. It was our first time using Django and React together, so there was quite a bit to learn there. We also ran into additional issues with managing files on the Django server for generating the AI-narrated video.
+## **Technologies Used**
 
-# Accomplishments that we're proud of
-We’re proud of the quick timing it takes to process the input lecture and convert it into a functional, professional video. We’re also proud of the concept and potential of our idea, as it’s a novel application of cutting-edge AI technology that truly addresses issues of accessibility for students and teachers alike.
+### ** AI Skills & Technologies**
+- **Large Language Models**: Implementation of GPT-based models for natural language generation
+- **Prompt Engineering**: Advanced techniques for optimal AI content generation
+- **Retrieval-Augmented Generation (RAG)**: Combining information retrieval with generative AI for factual accuracy
+- **Fine-tuning**: Custom model adaptation for educational content creation
+- **Context-aware Content Generation**: Creating materials that maintain coherence across sections
+- **Multi-modal Generation**: Producing both text and presentation-ready visual layouts
+- **Educational Domain Adaptation**: Specialized training for academic terminology and formats
 
-# What we learned
-We learned how to create a website using React and Django together. We also learned how to set up a Google Cloud and work with Google APIs and authentication. Finally, we learned how to integrate AI tools into the full-stack framework development pipeline.
+### **Programming Languages**
+- Python
 
-# What's next for EduLecture.ai
-We aim to expand our features and implement a premium plan for users. Educators without the premium plan will still be able to access our basic functionalities. In addition, subscribers to the premium plan will have more advanced features such as translation, collaboration with other users, auto-generation of thorough lecture notes from sparse bulleted notes, and more.
+### **Frameworks & Libraries**
+- Flask for backend web framework
+- React for frontend interface
+- OpenAI API for core content generation
+- Hugging Face Transformers for model deployment
+- PyTorch for custom AI model training
+- Pandas for data processing
 
-# Built With
+### **Other Tools**
+- Docker for containerization
+- PostgreSQL for database management
+- AWS for cloud deployment
 
-```
-django
-django-rest-framework
-djoser
-elevenlabs
-google
-google-cloud
-html
-css
-machine-learning
-opencv
-python
-react
-```
+---
+
+## **Installation**
+
+### **Prerequisites**
+1. Python 3.8 or higher
+2. Node.js and npm for frontend development
+3. Open
+
